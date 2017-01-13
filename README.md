@@ -25,7 +25,7 @@ This Docker image provides a simple admin interface to administrate Spring Boot 
 To start the web application:
 
 ```
-$docker run -d -p 8080:8080 -e CONSUL_HOST=192.168.1.1 -e CONSUL_PORT=8500 josansaiz/springbootadminconsul</code>
+$docker run -d -p 8080:8080 -e CONSUL_HOST=192.168.1.1 -e CONSUL_PORT=8500 josansaiz/springbootadminconsul
 ```
 
 You'll then be able to connect to the SpringBootAdminConsul web UI to confirm it's alive:
